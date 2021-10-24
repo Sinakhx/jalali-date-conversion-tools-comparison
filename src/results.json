@@ -1,0 +1,18 @@
+{
+    "performance": {
+        "dateFns": [1336, 1323, 1423],
+        "dayjs": [1249, 950, 941],
+        "native": [25460, 23762, 23487],
+        "native2nd": [599, 516, 519]
+    },
+    "validation": {
+        "dateFns": 0,
+        "dayjs": 0,
+        "native": 0
+    },
+    "bundleSize": {
+        "dateFns": 0,
+        "dayjs": 0,
+        "native": 0
+    }
+}

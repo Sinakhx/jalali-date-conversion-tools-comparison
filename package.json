@@ -1,0 +1,34 @@
+{
+  "name": "jalali-date-conversion-tools-comparison",
+  "version": "1.0.0",
+  "description": "comparing date-fns, dayjs & javascript's native solution for creating jalali dates",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinakhx/jalali-date-conversion-tools-comparison.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sinakhx/jalali-date-conversion-tools-comparison/issues"
+  },
+  "homepage": "https://github.com/Sinakhx/jalali-date-conversion-tools-comparison#readme",
+  "dependencies": {
+    "date-fns-jalali": "^2.25.0-0",
+    "dayjs": "^1.10.7",
+    "jalaliday": "^2.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.58.0"
+  }
+}
